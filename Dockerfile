@@ -1,7 +1,7 @@
-FROM ubuntu:focal
+FROM debian:bullseye
 
 ARG DEBIAN_FRONTEND="noninteractive"
-ENV TZ=America/New_York
+ENV TZ=Europe/Brussels
 
 RUN mkdir /build
 WORKDIR /build
